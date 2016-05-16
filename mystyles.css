@@ -1,12 +1,17 @@
 
 body{
-  color: #ff6600;
+  color: black;
   background-color: #00cc00;
 }
 
+#headerText{
+  color:black;
+
+  text-align: center;
+}
 
 #wrapperDiv{
-  width: 500px;
+  width: 906px;
   height: 800px;
   border:solid black 3px;
   background-color: #ff3399;
@@ -19,6 +24,9 @@ body{
   border: solid black 3px;
   background-color: #cc00ff;
   margin: auto;
+  float:left;
+
+
 }
 
 #navDiv{
@@ -55,4 +63,9 @@ body{
   padding: 15px
   margin-left: 20px;
   text-align: center;
+}
+#pic{
+  width:2in;
+  height:auto;
+
 }
