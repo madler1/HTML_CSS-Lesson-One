@@ -55,7 +55,7 @@ body{
 
 .buttonDiv{
   width: 150px;
-  height: 40px;
+  height: 30px;
   border: solid black 1px;
   background-color: white;
   float: left;
@@ -64,6 +64,7 @@ body{
   margin-left: 20px;
   text-align: center;
 }
+
 #pic{
   width:2in;
   height:auto;
