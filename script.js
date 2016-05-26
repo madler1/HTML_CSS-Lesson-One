@@ -36,6 +36,23 @@ function median(){
   sum=0;
 }
 
+function mode() {
+var mode = 0;
+var count = 0;
+  for(var i = 0; i < array.length; i++){
+    for(var j = 0; j < i; j++){
+       if(array[j] === array[i]){
+           mode = array[j];
+           count++;
+           console.log(count);
+       }
+    }
+}
+window.alert("This is the mode: " + mode);
+}
+
+
+/*
 function mode(){
   var counter = {};
     var mode = [];
@@ -53,3 +70,4 @@ function mode(){
     }
 window.alert("This is the mode: " + mode);
 }
+*/
